@@ -5,7 +5,7 @@ source("read_data.R")
 data  <- read_data()
 
 # Creating the forth plot
-png("plol4.png", width = 480, height = 480)
+png("plot4.png", width = 480, height = 480)
 
 par(mfrow= c(2,2), mar = c(4,4,2,2))
 

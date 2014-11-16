@@ -5,7 +5,7 @@ source("read_data.R")
 data  <- read_data()
 
 # Creating the third plot
-png("plol3.png", width = 480, height = 480)
+png("plot3.png", width = 480, height = 480)
 
 plot(data$Time,data$Sub_metering_1, type="l",ylab = "Energy sub metering", xlab="")
 points(data$Time,data$Sub_metering_2, type="l", xlab="",col="red")
