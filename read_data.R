@@ -18,7 +18,7 @@ read_data  <- function(){
         temp$Time  <- strptime(paste(temp$Date,temp$Time),"%d/%m/%Y %H:%M:%S")
         temp$Date  <- as.Date(temp$Date, "%d/%m/%Y")
         
-        # Subestting a data set from 2007-02-01 utill 2007-02-02
+        # Subestting a data set from 2007-02-01 till 2007-02-02
         data <- temp[which(temp$Date >= "2007-02-01" & temp$Date <="2007-02-02"),]
         return(data)
 }
