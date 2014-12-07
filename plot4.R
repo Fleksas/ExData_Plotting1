@@ -19,4 +19,4 @@ with(data, {
         plot(data$Time,data$Global_reactive_power, type="l",ylab = "Global_reactive_power", xlab="datetime")
 })
 
-dev.off()
+dev.off() 
