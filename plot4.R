@@ -4,7 +4,7 @@ source("read_data.R")
 # Reading data from the working ditectory
 data  <- read_data()
 
-# Creating the forth plot
+# Creating and saving the forth plot
 png("plot4.png", width = 480, height = 480)
 
 par(mfrow= c(2,2), mar = c(4,4,2,2))
