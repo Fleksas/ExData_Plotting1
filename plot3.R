@@ -4,7 +4,7 @@ source("read_data.R")
 # Reading data from the working ditectory
 data  <- read_data()
 
-# Creating the third plot
+# Creating and saving the third plot
 png("plot3.png", width = 480, height = 480)
 
 plot(data$Time,data$Sub_metering_1, type="l",ylab = "Energy sub metering", xlab="")
